@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background: rgb(0, 23, 76);
+  opacity: 1;
+  user-select: none;
+  -webkit-app-region: drag;
+}
+
+.app {
+  padding: 16px;
+}
+
+button,
+input,
+textarea,
+select {
+  -webkit-app-region: no-drag;
+  cursor: pointer;
+}
+
+.title {
+    color: var(--red, #c63846 );
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #E30118;
+
+    font-family: Alphacorsa;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+#day {
+  font-family: Pixaboy;
+  color: #FFD300;
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 5px;
+}
+
+#date {
+  font-family: Pixaboy;
+  color: #D9D4CE;
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 5px;
+}
+
+#time {
+  font-family: Alphacorsa;
+  color: #D9D4CE;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #b6b3b0;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 5px;
+}
